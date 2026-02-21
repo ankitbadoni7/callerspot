@@ -1,0 +1,53 @@
+/* Primary Button */
+.btn-primary {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    background: #7E28FF;
+    color: #f2ecec;
+    text-decoration: none;
+    box-shadow:inset 0 0 20px 4px rgba(164, 122, 255, 1);
+    transition: 0.3s ease;
+    border: none;
+     font-family: Lato, sans-serif;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+/*Get Started*/
+.btn{
+    display: block;   
+    padding: 10px 30px;          
+    text-align: center;  
+    border-radius: 20px;
+    font-weight: 600;
+    background: #7E28FF;
+    color: #f2ecec;
+    text-decoration: none;
+    box-shadow:inset 0 0 20px 4px rgba(164, 122, 255, 1);
+    transition: 0.3s ease;
+     font-family: Lato, sans-serif;
+}
+
+
+/* Outline Button */
+.btn-outline {
+    padding: 10px 20px;
+    border-radius: 18px;
+    font-weight: 800;
+    font-family: 'Inter', sans-serif;
+    border: 2px solid #7E28FF;
+    color: #7E28FF;
+    text-decoration: none;
+    transition: 0.3s ease;
+     font-family: Lato, sans-serif;
+    
+}
+
+.btn-outline:hover {
+    background: #7E28FF;
+    color: #fff;
+}
