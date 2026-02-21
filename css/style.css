@@ -671,3 +671,35 @@ margin-top: 10px;
     opacity: 1;
     visibility: visible;
 }
+
+/* Section */
+.integrate-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+
+/* Heading */
+.integrate-heading {
+    font-family: var(--font-heading),'sans-serif';
+    font-size: 48px;
+    font-weight: 700;
+    color: #1f1147; /* dark purple */
+    margin-bottom: 7px;
+    line-height: 1.2;
+}
+
+/* Gradient Word */
+.integrate-heading span {
+    background: linear-gradient(90deg, #6d28d9, #9333ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Subtext */
+.integrate-subtext {
+    font-family:var(--font-body),'sans-serif';
+    font-size: 19px;
+    color: #6b7280; /* gray text */
+    font-weight: 400;
+}

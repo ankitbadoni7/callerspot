@@ -33,6 +33,11 @@
 }
 
 
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+
 /* Outline Button */
 .btn-outline {
     padding: 10px 20px;
