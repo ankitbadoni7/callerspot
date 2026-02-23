@@ -2070,3 +2070,281 @@ body, html {
         gap: 8px;
     }
 }
+
+@media(max-width: 370px) {
+    .hero-left h1 {
+       font-size: 20px !important;   
+        line-height: 20px !important;
+        width: 90% !important;
+       
+    }
+    .hero-subtext {
+        font-size: 13px;
+        text-align: left;
+        margin-bottom: 15px;
+        width: 80%;
+    }
+    /* ================= WORK SECTION ================= */
+    .work-section {
+    padding: 10px 0;
+    
+}
+    .work-heading {
+        font-size: 11px !important;
+       
+    }
+
+    .work-subtext {
+        font-size: 10px !important;
+        margin-bottom: 20px;
+        text-align: center;
+    
+    }
+
+    .work-cards, .work-cards-three {
+        flex-direction: column;
+        gap: 20px;
+            align-items: center;
+    }
+
+    .work-card {
+        padding: 20px 15px;
+    }
+
+    .work-card h3 {
+        font-size: 18px;
+    }
+
+    .card-img {
+        height: auto;
+    }
+   
+    /* ================= TESTIMONIAL ================= */
+    .testimonial-logos img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    /* ================= BENEFITS ================= */
+    .benefits-header h2 {
+        font-size: 15px;
+    }
+
+    .benefits-header p {
+        font-size: 10px !important;
+
+    }
+
+    .benefits-box {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 15px;
+    }
+    .benefit-card h4 {
+        font-size: 14px;
+    }
+
+    .benefit-card p {
+        font-size: 12px;
+    }
+
+    .icon-box {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    /* ================= APP SECTION ================= */
+    .app-content h2 {
+        font-size: 28px !important;
+        width: 100%;
+    }
+
+    .app-content p {
+        font-size: 15px !important;
+        width: 70% !important;
+
+    }
+
+    .app-buttons img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .app-image img {
+        display: none;
+        
+    }
+
+    /* ================= PRICING ================= */
+    .pricing-header h2 {
+        font-size: 20px;
+    }
+    .pricing-header p {
+        font-size: 12px;
+       
+    }
+    .pricing-cards {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 350px;
+        padding: 20px;
+    }
+
+    .features ul li {
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    .features ul li::before {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* ================= INTEGRATE ================= */
+    .integrate-heading {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .integrate-subtext {
+        font-size: 12px;
+       
+    }
+
+    /* ================= SOFTWARE IMAGE ================= */
+    .software-img img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    /* ================= BLOG ================= */
+    .blog-section {
+        padding: 20px 15px;
+        margin: 50px 10px;
+    }
+
+    .blog-header h2 {
+        font-size: 26px;
+    }
+
+    .blog-header p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .featured-blog {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .featured-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .featured-content h3 {
+        font-size: 20px;
+    }
+
+    .featured-content p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    /* ================= EXPERIENCE ================= */
+    .experience-section {
+        padding: 20px 15px;
+    }
+
+    .experience-box {
+        padding: 60px 15px;
+    }
+
+    .experience {
+        width: 200px;
+    }
+
+    .experience1,.experience2 {
+        display: none;
+    }
+
+    
+    .experience-content {
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+       
+    }
+
+    .experience-content h1 {
+        font-size: 28px;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .experience-buttons {
+        
+        gap: 15px;
+       
+    }
+
+    .btn-primary-experience,
+    .btn-outline-experience {
+        padding: 10px 20px;
+    }
+
+    /* ================= FOOTER ================= */
+  .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 column layout */
+        gap: 20px;
+    }
+
+    /* Brand section full width */
+    .footer-brand {
+        grid-column: 1 / -1; /* take full row */
+    }
+
+    
+    .footer ul li {
+        font-size: 13px;
+    }
+    .contact p{
+        font-size: 12px !important;
+    }
+
+    .footer p,
+    .footer .lorem {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+
+
+    
