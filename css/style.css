@@ -39,7 +39,8 @@ body {
     padding: 20px 0;
     background: #fff;
     font-family: var(--font-body);
-    border-bottom: 2px solid #898686;
+    border-bottom: 2px solid #c7bfbf;
+    
 }
 
 .nav-container {
@@ -70,21 +71,28 @@ body {
     transition: 0.3s;
 }
 
+.nav-links > li > a img {
+    margin-left: 4px; 
+}
+
 .nav-links a:hover {
     color: var(--primary-color);
 }
+.dropdown {
+    position: relative;
+}
 
 .dropdown-menu {
-    position: relative;
-    top: 100%;
+    position:absolute;
+    top: 70%;
     left: 0;
-    background: #fff;
+    background:none;
     list-style: none;
     padding: 15px 0;
     min-width: 180px;
     border-radius: 8px;
-    box-shadow: 0px 8px 25px rgba(0,0,0,0.08);
     display: none;   /* hidden by default */
+    z-index: 2000;
 }
 
 .dropdown.active .dropdown-menu {
@@ -93,18 +101,23 @@ body {
 .arrow {
     transition: 0.3s ease;
 }
+.arrow {
+    font-size: 18px;
+    position: relative;
+    color: var(--primary-color);
+}
 
 .dropdown.active .arrow {
     transform: rotate(180deg);
 }
 
-
-/* Button */
-
-
-.btn-primary:hover {
-    opacity: 0.85;
+/* Hover effect for dropdown items */
+.dropdown-menu li a:hover {
+    color: var(--primary-color);
+    
 }
+
+
 
 
 /* ================= HERO ================= */
@@ -113,14 +126,7 @@ body {
     position: relative;
     padding: 50px 0;
     overflow: hidden;
-
-    background: linear-gradient(
-        180deg,
-        rgba(126, 40, 255, 0) 0%,
-        #FFFFFF 100%
-    );
-
-    z-index: 1; /* content layer */
+  
 }
 
 /* Vector Layer */
@@ -133,11 +139,27 @@ body {
     
     background-size: 80%;   /* responsive */
     
-    opacity: 0.4;
+    opacity: 0.3;
 
     z-index: -1; 
 }
 
+
+/* NEW BLUR RECTANGLE LAYER */
+.hero::after {
+    content: "";
+    position: absolute;
+
+    width: 60%;
+    height: 85%;
+    
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background:#FFFFFF;
+    filter: blur(40px);
+    z-index: -1;
+}
 
 
 /* Main Flex Row */
@@ -158,15 +180,28 @@ body {
     font-size: 45px;
     font-weight: 700;
     line-height: 1.2;
-    color: #1D005B;
-    
+    color: #1D005B; 
 }
 
 .hero-left span {
     color: #7E28FF;
   
-    
 }
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(
+        90deg,
+        rgba(29, 0, 91, 1) 0%,
+        rgba(126, 40, 255, 1) 50%,
+        rgba(29, 0, 91, 1) 100%
+    );
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 
 /* RIGHT SIDE */
 .hero-right {
