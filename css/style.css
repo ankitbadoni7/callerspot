@@ -1235,7 +1235,6 @@ filter: blur(35px);
         padding: 1px 10px;
         z-index: 999;
         left: 50%;
-      
     }
     
 
@@ -1247,6 +1246,9 @@ filter: blur(35px);
     nav ul.nav-links li:last-child {
         border-bottom: none;    /* no border for last item */
     }
+nav ul.nav-links {        
+    gap: 10px;            
+}
 
     .hamburger {
         display: block;
@@ -1262,15 +1264,16 @@ filter: blur(35px);
     }
  .btn-outline{
         font-size: 10px;
+        padding: 8px 8px !important;
     }
      nav ul.nav-links li .dropdown-menu {
         position: relative;        /* relative to the li */
         top: 0;                    /* don’t push down */
-        background: #f9f9f9;       /* optional: slightly different bg */
+        background: #f9f9f9;       
         border: 1px solid #ccc;
-        display: none;             /* hide by default */
-        flex-direction: column;           /* optional: smaller width than navbar */
-        margin-top: 5px;           /* small gap under parent link */
+        display: none;            
+        flex-direction: column;           
+        margin-top: 5px;           
         border-radius: 6px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         z-index: 1000;
@@ -1774,7 +1777,7 @@ body, html {
 }
 
 /* Small devices (mobiles) */
-@media (max-width: 480px) {
+@media (max-width: 480px)  {
 
 body, html {
     margin: 0;
@@ -2071,7 +2074,7 @@ body, html {
     }
 }
 
-@media(max-width: 370px) {
+@media(max-width: 400px) {
     .hero-left h1 {
        font-size: 20px !important;   
         line-height: 20px !important;
