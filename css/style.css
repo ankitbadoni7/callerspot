@@ -1204,22 +1204,6 @@ filter: blur(35px);
 /* ================= RESPONSIVE ================= */
 
 
-
-
-
-/* Medium devices (portrait tablets / small tablets) */
-@media (min-width: 481px) and (max-width: 768px) {
-    .hero-image img {
-        width: 90%;
-        max-width: 90%;
-    }
-
-    .hero-content {
-        padding: 20px;
-        font-size: 16px;
-    }
-}
-
         /* ===== Responsive ===== */
 @media (max-width: 800px) {
     /* Hide nav by default */
@@ -1580,18 +1564,7 @@ body, html {
     
 }
 
-/* Large devices (landscape tablets / small laptops) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .hero-image img {
-        width: 80%;
-        max-width: 80%;
-    }
 
-    .hero-content {
-        padding: 25px;
-        font-size: 18px;
-    }
-}
 
 /* Extra large devices (desktops / large screens) */
 @media (max-width: 1025px) {
@@ -2278,8 +2251,11 @@ body, html {
     .experience {
         width: 200px;
     }
-
-    .experience1,.experience2 {
+    .experience1{
+        left: 80px;
+        top: 210px!important;
+    }
+    .experience2 {
         display: none;
     }
 
@@ -2301,7 +2277,7 @@ body, html {
     }
 
     .experience-buttons {
-        
+      
         gap: 15px;
        
     }
@@ -2309,6 +2285,7 @@ body, html {
     .btn-primary-experience,
     .btn-outline-experience {
         padding: 10px 20px;
+        
     }
 
     /* ================= FOOTER ================= */
