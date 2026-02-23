@@ -23,3 +23,22 @@ document.addEventListener('click', function () {
         dropdown.classList.remove('active');
     });
 });
+
+//hamburger menu
+
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+
+hamburger.addEventListener('click', (e) => {
+    navLinks.classList.toggle('active');
+    e.stopPropagation(); // prevent document click from immediately closing
+});
+
+// Close nav if clicking outside
+document.addEventListener('click', (e) => {
+    // if click is NOT inside navLinks or hamburger
+    if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
+        navLinks.classList.remove('active');
+    }
+});
+
