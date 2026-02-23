@@ -135,7 +135,7 @@ body {
     position: absolute;
     inset: 0;
 
-    background: url("../images/Vector.png");
+    background: url("/images/Vector.png");
     
     background-size: 80%;
     
