@@ -228,12 +228,18 @@ body {
     margin-top: 55px;
     display: flex;
     justify-content: center;
+    
 }
 
 .hero-image img {
-    width: 1200px;     /* same as container */
-    max-width: 90%;    /* responsive */
+    width: 1200px;     
+    max-width: 90%;   
     height: auto;
+    border-radius: 20px;
+     border: 6px solid #b9b0fa39;  
+     box-shadow: 
+        
+        0 0 10px 5px rgba(0,0,0,0.2); /* outer shadow*/
 }
 
 /* ================= WORK SECTION ================= */
