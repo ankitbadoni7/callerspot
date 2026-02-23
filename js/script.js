@@ -42,3 +42,16 @@ document.addEventListener('click', (e) => {
     }
 });
 
+
+// navbar hide on scroll down, show on scroll up
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+    let currentScroll = window.pageYOffset;
+
+    if (currentScroll > lastScroll) {
+        navLinks.classList.remove("active");
+    }
+
+    lastScroll = currentScroll;
+});

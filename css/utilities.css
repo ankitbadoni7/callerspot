@@ -1,6 +1,6 @@
 /* Primary Button */
 .btn-primary {
-    padding: 10px 30px;
+    padding: 10px 40px;
     border-radius: 20px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
@@ -49,7 +49,7 @@
     text-decoration: none;
     transition: 0.3s ease;
      font-family: Lato, sans-serif;
-    
+       -webkit-tap-highlight-color: transparent;
 }
 
 .btn-outline:hover {
