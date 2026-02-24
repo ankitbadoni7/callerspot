@@ -1284,6 +1284,9 @@ nav ul.nav-links {
     .btn-primary {
         font-size: 10px;
     }
+    .navbtn{
+        display: none;
+    }
  .btn-outline{
         font-size: 10px;
         padding: 8px 8px !important;
