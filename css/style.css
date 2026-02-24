@@ -849,7 +849,7 @@ margin-top: 10px;
     color: #6b6b6b;
     line-height: 1.4;
      font-family: var(--font-body);
-     width: 400px;
+     max-width: 400px;
      text-align: center;
 
 }
@@ -1010,7 +1010,7 @@ margin-top: 10px;
 
 /* Experience SECTION */
 .experience-section {
-    padding: 80px 100px;
+    padding: 80px 80px;
 }
 
 .experience-box {
