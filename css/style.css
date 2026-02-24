@@ -2093,13 +2093,13 @@ body, html {
 
 @media(max-width: 400px) {
     .hero-left h1 {
-       font-size: 20px !important;   
-        line-height: 20px !important;
+       font-size: 20px;   
+        line-height: 20px ;
         width: 100% !important;
        
     }
     .hero-subtext {
-        font-size: 13px;
+        font-size: 15px;
         text-align: left;
         margin-bottom: 15px;
         width: 80%;
