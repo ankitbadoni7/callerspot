@@ -821,6 +821,7 @@ margin-top: 10px;
 );
     margin:100px 300px;
     border-radius: 20px;
+    
 }
 
 /* Header */
@@ -889,10 +890,10 @@ margin-top: 10px;
 .featured-content p {
     font-size: 15px;
     color: #6b6b6b;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     line-height: 1.6;
     font-family: var(--font-body);
-     margin-bottom: 80px;
+    
 }
 
 .author-box {
