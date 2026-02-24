@@ -43,7 +43,7 @@ document.addEventListener('click', (e) => {
 });
 
 
-// navbar hide on scroll down, show on scroll up
+// navbar hide on scroll down
 let lastScroll = 0;
 
 window.addEventListener("scroll", () => {

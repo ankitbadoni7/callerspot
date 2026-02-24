@@ -163,8 +163,8 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background:#e3d5f19e;
-    filter: blur(50px);
+    background:#ffffff;
+    filter: blur(60px);
     z-index: -1;
 }
 
